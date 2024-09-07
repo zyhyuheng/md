@@ -22,13 +22,6 @@
       crossorigin="anonymous"
     />
     <style>
-      /**
-        解决公众号复制字体问题
-       */
-      .katex .mathnormal {
-        font-family: 'Times New Roman' !important;
-      }
-
       .loading {
         position: fixed;
         top: 0;
@@ -80,8 +73,8 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/md/assets/index-rTfho1Gk.js"></script>
-    <link rel="stylesheet" crossorigin href="/md/assets/index-DrSu4_w_.css">
+    <script type="module" crossorigin src="/md/assets/index-BpITZyw2.js"></script>
+    <link rel="stylesheet" crossorigin href="/md/assets/index-DA1qv0Eo.css">
   </head>
 
   <body>
@@ -100,6 +93,13 @@
         document.querySelector('.loading').classList.add('dark')
       }
     </script>
+    <script>
+      MathJax = {
+        svg: { fontCache: 'none' },
+        tex: { tags: 'ams' },
+      }
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
   </body>
   <script src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/wechatsync/article-syncjs@latest/dist/main.js"></script>
 </html>
